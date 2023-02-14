@@ -1,0 +1,119 @@
+.navbar-css{
+    display: flex;
+    height: 10%;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: relative;
+    align-items: center;
+    background-color: brown;    
+    z-index: 20;
+}
+
+.HeaderProfileClass{
+    width:fit-content;
+    flex: 1;
+    text-align: right;
+    margin-right:5%;
+}
+.ImageContainerClassLayout{
+    flex:1;
+    mix-blend-mode:color-burn;
+}
+.profile-div{
+    display: flex;
+    justify-content:end;
+}
+
+
+.body-div{
+
+    margin:0 0 0 0;
+    display: flex;
+    position: relative;
+    top: 10%;
+    left: 0;
+
+}
+.sidebar-div{
+    flex: 1;
+    left: 0;
+    height: 100vh;
+    background:dimgray;
+    position: sticky;
+}
+.top_section{
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    font-size: smaller;
+}
+.sidebar-link{
+    display: flex;
+    color: #fff;
+    padding: 50px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+    
+}
+.sidebar-link:hover{
+    background-color: lightgray;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 16px;
+}
+.logo-image{
+    height: 80;
+    width: 200;
+    
+}
+img{
+    height: 70px;
+    width: 160px;
+    object-fit: contain;
+    
+}
+
+
+
+
+.main-div-sidebar{
+    flex: 10;
+}
+.HeaderProfileClass{
+    background-color: brown;
+}
+.profile-div{
+    background-color: brown;
+}
+.link{
+    background-color: brown;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: brown;
+}

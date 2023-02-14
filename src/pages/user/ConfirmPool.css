@@ -1,0 +1,178 @@
+.host-name-id {
+   border: none;
+   background-color:transparent;
+   width: fit-content;
+   padding: 0 10px;
+   font-size: large;
+   font-weight: 600;
+}
+.host-image{
+   margin-left: 10px;
+}
+
+.vehicle-detail-card {
+   border: none;
+   background-color: transparent;
+   width: fit-content;
+   padding: 0 10px;
+   margin-top: 5px;
+}
+
+.from {
+   border: none;
+   background-color: transparent;
+   border-radius: 5px;
+   width: fit-content;
+   padding: 0 10px;
+   font-size: larger;
+   margin-top: 5px;
+}
+
+.to {
+   border: none;
+   background-color: transparent;
+   border-radius: 5px;
+   width: fit-content;
+   padding: 0 10px;
+   margin-top: 5px;
+   font-size: larger;
+}
+
+.start-time {
+   border: none;
+   background-color:transparent;
+   border-radius: 5px;
+   width: fit-content;
+   padding: 0 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: small;
+   font-weight: 600;
+}
+
+.section1 {
+   display: flex;
+   flex-direction: row;
+    column-gap: 95px;
+}
+
+.form-card {
+   display: flex;
+   column-gap: 80px;
+   border: none;
+   background-color: transparent;
+   width: fit-content;
+   padding: 0 10px;
+   /* height: 50px; */
+   align-items: center;
+   margin-bottom: 5px;
+   height: fit-content;
+}
+.no-of-riders {
+   border: none;
+   background-color:transparent;
+   border-radius: 5px;
+   width: fit-content;
+   padding: 1px 1px;
+}
+.dropoff-button {
+   border: none;
+   background-color: rgb(165, 201, 235);
+   border-radius: 10px;
+   padding: 10px 15px;
+}
+.dropoff-button:hover {
+   background-color: rgb(138, 182, 221);
+}
+.confirm-pool-body {
+   height: 75%;
+   background-color: rgb(198, 226, 248);
+   padding: 25px 30px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+   /* width: -moz-fit-content; */
+   width: fit-content;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   justify-content: space-evenly;
+}
+.confirm-button .cr-button {
+   width: 180px;
+   padding: 10px 15px;
+   margin: 35px auto;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: bold;
+   background-image: linear-gradient(to right, #93c47d, #5cbfec);
+   cursor: pointer;
+   transition: opacity 0.4s;
+   margin-right: 16px;
+}
+.confirm-button .cr-button:hover {
+   background-image: linear-gradient(to right, #5cbfec, #93c47d);
+}
+.confirmpool-title {
+   text-align: center;
+   font-size: x-large;
+   font-weight: 400;
+}
+.no-of-seats{
+   font-size: medium;
+   margin-left: 10px;
+}
+.no-of-riderss{
+   font-size: medium;
+   background-color: rgb(165, 201, 235);
+   padding: 10px 15px;
+   border-radius: 10px;
+}
+.b1{
+   background-color: transparent;
+   color:green;
+   margin-left: 70px;
+   margin-right: 5px;
+}
+.b2{
+   background-color: transparent;
+   color: red;
+   margin-left: 5px;
+}
+.wheel-name-number{
+   font-size: medium;
+   font-weight: 600;
+}
+
+.cancel-button{
+   margin-left: 5px;
+   background-color: transparent;
+   color: red;
+   font-weight: 400;
+}
+.input-locations{
+  border-color: green;
+}
+.from-to-date-time-seat{
+   display: flex;
+   flex-direction: column;
+   row-gap: 4px;
+   /* margin-top: 75px; */
+   /* justify-content: space-evenly; */
+}
+.from-to-details {
+   display: flex;
+   flex-direction: column;
+   row-gap: 4px;
+   justify-content: space-evenly;
+   background-color: rgb(165, 201, 235);
+   width: 45%;
+   height: 95%;
+   align-items: center;
+   border-radius: 10px;
+}
+.profile-and-wheels{
+   display:flex ;
+   justify-content: space-evenly;
+   flex-direction:column;
+   row-gap:10px;
+}

@@ -1,0 +1,104 @@
+.header {
+    margin-top: 60px;
+}
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+
+}
+
+.headerTitleSm {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+
+.headerTitleLg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+}
+
+.SpanClassHeader {
+    height: 10%;
+    color: black;
+
+}
+
+.topImg {
+    width: 100vw;
+    height: 50vh;  
+    margin-top: 7vh; 
+    object-fit: cover;
+
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 3rem;
+    flex-direction: column;
+    padding-bottom: 7vh;
+    
+
+}
+
+
+.btn1 {
+    border: none;
+    background: transparent;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: white;
+    background: #cfe2f3;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 5rem;
+
+    margin: 0 2%;
+    text-align: center;
+    width: 13rem;
+    text-transform: uppercase;
+    margin-top: 0rem;
+    display: inline-block;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.pool {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.btn1:hover {
+    color: white;
+    background: lightsalmon;
+}
+
+.SpanClassHeader {
+    align-items: center;
+    margin: 0 auto;
+    color: darkred;
+    font-weight: bold;
+
+}
+.Img{
+    text-align: center;
+    margin-bottom: 0rem;
+    
+}

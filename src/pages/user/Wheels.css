@@ -1,0 +1,218 @@
+.Pop-Up{
+ 
+    display: flex;
+    font-family: "Nunito", sans-serif;
+  }
+  .openModalBtn{
+      margin: auto;
+  }
+  .ImageClassRegister{
+      margin: auto;
+      border-radius:60% ;
+  }
+  .AddVehicleClass{
+      margin: auto;
+  }
+  .modal-backdrop.show{
+    opacity:0 !important;
+  }
+  .modal-backdrop{
+    z-index:0;
+  }
+  .Pop-Up .openModalBtn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+  }
+  .submitBtn{
+    background-color: rgb(218, 121, 11);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+  }
+  .submitBtn:hover{
+    background: rgb(0, 212, 212);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    color: white;
+  }
+  
+  .Pop-Up .openModalBtn:hover {
+    background: rgb(0, 212, 212);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+  
+  .Buttons{
+    display: flex;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .form-Input-Register{
+      padding: 2%;
+  }
+  .card{
+      /* max-width: 340px;
+      margin: 10px auto 0 auto;
+      padding: 10px 0;
+      box-shadow: 0 2px 6px #555;
+      border-radius: 25px; */
+      box-shadow: 0 4px 8px 0 rgba(170, 21, 21, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    float: left;
+    width: 260px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    } 
+    .card:hover{
+      box-shadow: 0 8px 16px 0 rgba(14, 204, 93, 0.2);
+    }
+  
+  .card-body{
+      height: fit-content;
+  }
+  
+  
+  
+    /* form {
+      background-color: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+    } */
+
+
+    
+.AddVehicle{
+  
+  border: 0 !important;
+  margin: 0 auto;
+  background-color: rgb(218, 121, 11);
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  color: white;
+ 
+
+ /* align- */
+
+  }
+  .add{
+    display: flex;
+    
+  }
+  .AddVehicle:hover{
+
+    background: rgb(0, 212, 212);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    color: white;
+
+}
+
+.wheels-main-content{
+  margin: 5vh;
+}
+
+.arrangeElement{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  padding: 2vw;
+}
+.RowArrange{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.title
+{
+  text-align: center;
+}
+.card-img-top{
+  width:100%;
+  height:100%;
+}
+
+.wheels-card-body{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 10px;
+  padding-top: 20px;
+}
+.wheels-card-body h1{
+  font-size:xx-large;
+}
+.wheels-card-body-right{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-items: center;
+  
+}
+.wheels-card-body-right p{
+  font-size: larger;
+
+}
+.wheels-card{
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  flex-wrap: wrap;
+  justify-content: inherit;
+
+  border-color: #333;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.wheels-card-body-right .type-and-number{
+  display: flex;
+  flex-direction: row;
+}
+.wheels-delete-button{
+  width: 2vw;
+}
+.wheels-image-div{
+  width: 20vw;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+@media(max-width: 1100px){
+  .wheels-card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: inherit;
+  
+    border-color: #333;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  .wheels-card-body-right .type-and-number{
+    display: flex;
+    flex-direction: column;
+  }
+  #wheels-division{
+    display: none;
+  }
+  .wheels-card-body{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 10px;
+    padding-top: 20px;
+  }
+}

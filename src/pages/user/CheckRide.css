@@ -1,0 +1,231 @@
+
+.cr-title{
+   text-align: center;
+}
+.cr-outer-box{
+   /* border-radius: 2vh;
+   box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+   background-color: antiquewhite;
+ transition: 0.3s;
+  margin :auto;
+  text-align: center; 
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+  display: flex; */
+
+  box-shadow: 0 4px 8px 0 rgba(17, 143, 122, 0.2);
+  /* background-color: rgb(234, 240, 239); */
+  background-color: rgb(201, 230, 225);
+transition: 0.3s;
+border-radius: 2vh;
+margin: auto;
+text-align: center; 
+ margin-bottom: 5vh;
+ margin-top: 3vh;
+ display: flex;
+ height: fit-content;
+ width: fit-content;
+}
+
+.cr-detail{
+   display: flex;
+   column-gap: 3vh;
+   align-items: center;
+   
+}
+.cr-first{
+ text-align: center;
+ align-items: center;
+ /* vertical-align:middle; */
+
+
+}
+.cr-row{
+   border-radius:1vh;
+   box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+   background-color: rgb(103, 172, 121);
+   margin-top: 2vh;
+   /* width: 15vw; */
+  /* height:5vh; */
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2vh;
+  margin-left: 3vh;
+  text-align: left;
+   
+}
+
+.cr-btn{
+
+
+   
+   /* display: flex;
+   display: inline-block;
+ border-radius: 3vh;
+ background-color:  #be5e1d;
+
+ border: none;
+ color: #FFFFFF;
+
+ font-size:16px; */
+ 
+ /* padding:3vh; */
+ /* width: 82%; */
+ /* transition: all 0.5s; */
+ /* cursor: pointer;
+ margin: 2vh;
+height: 5vh;
+text-align: justify;
+text-align:center;
+vertical-align:middle; */
+
+color: #fff;
+width: 180px;
+   padding: 10px 15px;
+   margin: 35px auto;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: bold;
+   background-image: linear-gradient(to right, #93c47d, #5cbfec);
+   cursor: pointer;
+   transition: opacity 0.4s;
+   margin-right: 16px;
+
+}
+.cr-btn:hover{background: linear-gradient(-135deg, #8af0e7, #93c47d);} 
+
+.cr-middile-container{
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+    
+}
+  
+
+.avatar{
+  float: left;
+  margin:1 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+
+}
+.crm-outerbox{
+   /* border-radius: 2vh;
+   box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+   background-color: antiquewhite;
+ transition: 0.3s;
+  margin :auto;
+  text-align: center; 
+
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+  display: flex;
+  align-items: center; */
+height: fit-content;
+width: fit-content;
+
+
+}
+.crm-row{
+   /* display: inline-block;
+   column-gap: 2vh;
+   align-items: center; 
+   margin-top: 1vh;
+margin-left: 3vh;
+   margin-right: 3vh;
+   margin-bottom: 3vh;
+   text-align: justify;
+   text-align:center; */
+   display: inline-block;
+   /* column-gap: 10px; */
+   padding: 0 25px;
+   /* height: 105px; */
+  
+   width:250px ;
+   width: fit-content;
+   box-shadow: 0 4px 8px 0 rgba(17, 143, 122, 0.2);
+   background-color: rgb(234, 240, 239);
+   /* background-color: rgb(201, 230, 225); */
+ transition: 0.3s;
+   font-size: 15px;
+   line-height: 50px;
+   border-radius: 25px;
+  border: 2px solid rgb(13, 129, 27);
+   text-transform: uppercase;
+   margin-bottom: 5vh;
+   margin-top: 3vh;
+}
+
+
+.crm-avatar{
+font-size: 7vh;
+display:flex;}
+
+
+
+
+.cbc-outer-box{
+   /* border-radius: 2vh;
+   box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+   background-color: antiquewhite;
+ transition: 0.3s;
+  margin :auto;
+  text-align: center; 
+
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 5px;
+  margin-top: 3vh;
+  display: flex;
+
+  align-items: center; */
+  box-shadow: 0 4px 8px 0 rgba(17, 143, 122, 0.2);
+  /* background-color: rgb(234, 240, 239); */
+  background-color: rgb(201, 230, 225);
+transition: 0.3s;
+border-radius: 2vh;
+margin: auto;
+text-align: center; 
+ margin-bottom: 5vh;
+ margin-top: 3vh;
+ display: flex;
+ height: fit-content;
+ width: fit-content;
+}
+.cbc-details{
+   display: flex;
+   column-gap: 3vh;
+   align-items: center;
+  
+
+}
+.cbc-row{
+   border-radius:1vh;
+   box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+   background-color: rgb(103, 172, 121);
+   margin-top: 2vh;
+   width: 100px ;
+  width: fit-content;
+   margin-right: 3vh;
+   padding: 10px 15px;
+  /* height: fit-content; */
+  margin-bottom: 3vh;
+  margin-left: 1vw;
+  text-align: justify;
+  text-align:center;
+}
+
+.cbc-icon{
+   font-size: 5vh;
+   display:flex;
+margin-left: 3vh;
+}
+   

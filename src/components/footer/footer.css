@@ -1,0 +1,39 @@
+.bottom{
+    color: white;
+    background-color:rgb(32, 31, 31);
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .bottomListItem{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .bottomLeft{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+  }
+  .col-sm{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:6;
+  }
+  .footer-link{
+    background-color:rgb(32, 31, 31);
+    text-decoration: none;
+    display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  font-size: smaller;
+}

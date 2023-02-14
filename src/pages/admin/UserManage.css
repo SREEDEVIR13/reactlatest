@@ -1,0 +1,95 @@
+/* .main-div-content{
+    overflow-y: scroll !important;
+    height: 80%;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.card-div{
+    width: 40vw;
+    height: 30vh;
+}
+.card-top-div{
+    display: flex;
+    flex-direction: row;
+}
+.card-top-div .card-image-div{
+}
+.card-top-div .card-name-div{
+    
+    
+}
+.image-property{
+    
+}
+.fullname-div h2{
+
+}
+.card-body-div{
+    
+}
+.card-body-div label{
+}
+.body-info-div{
+} */
+
+.body-info-div{
+    display: flex;
+}
+.header-div{
+    font-style: italic;
+    text-align: center;
+}
+.main-div-content{
+    overflow-y: scroll !important;
+    height: 86vh;
+    background-color:cadetblue;
+    padding: 20px;
+}
+.card-body-div {
+    box-shadow: 0 4px 8px 0 rgba(170, 21, 21, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    float: left;
+    width: 260px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color:gray;
+    padding: 10px;
+}
+.card-body-div .fullname-div{
+    margin-bottom: 1.5vh;
+}
+.card-body-div .fullname-div h2{
+    margin: 0;
+}
+.card-body-div .fullname-div span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-body-div .body-info-div label{
+    font-weight: bold;
+}
+
+.card-body-div:hover {
+    box-shadow: 0 8px 16px 0 rgba(14, 204, 93, 0.2);
+    background-color:lightgray;
+}
+
+.image-property {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.list {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

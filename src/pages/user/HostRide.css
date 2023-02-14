@@ -1,0 +1,238 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.hostride-body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+  background: linear-gradient(135deg, #93c47d, #8af0e7);
+}
+
+.hostride-container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hostride-container .hostride-title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.hostride-container .hostride-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #93c47d);
+}
+
+
+
+
+
+
+
+.hostride-content form .hostride-user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.hostride-form .hostride-user-details .input-box {
+  margin-bottom: 15px;
+  margin-top: 0;
+  width: calc(100% / 1 - 20px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+
+}
+.form-control{
+  margin-bottom: 0;
+}
+.vehicle-image-display{
+  display: flex;
+}
+.hostride-form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.hostride-user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border-color: #93c47d;
+}
+
+
+.hostride-user-details .input-box input:focus,
+.hostride-user-details .input-box input:valid {
+  border-color: #93c47d;
+}
+
+.hostride-form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+
+.hostride-form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hostride-form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+  background: #93c47d;
+  border-color: #d9d9d9;
+}
+
+.hostride-form input[type="radio"] {
+  display: none;
+}
+
+.hostride-form .button {
+  height: 45px;
+  margin: 35px 0
+}
+
+.hostride-form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #8af0e7, #93c47d);
+}
+
+.hostride-form .button input:hover {
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #8af0e7, #93c47d);
+}
+
+@media(max-width: 584px) {
+  .hostride-container {
+    max-width: 100%;
+    
+  }
+  
+
+  .hostride-form .hostride-user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .hostride-form .hostride-user-details .column {
+    margin-bottom: 15px;
+    width: 100%;
+    flex-direction: column !important;
+  }
+
+  .hostride-form .category {
+    width: 100%;
+  }
+
+  .hostride-content form .hostride-user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .hostride-user-details::-webkit-scrollbar {
+    width: 5px;
+  }
+
+}
+
+/* @media(max-width: 459px) {
+  .hostride-container .content .category {
+    flex-direction: column;
+  }
+} */
+
+.hostride-user-details p{
+  position: absolute;
+  font-size: x-small;
+  color: red;
+}
+.hostride-user-details{
+  position: relative;
+}
+.hostride-form .hostride-user-details .column {
+  margin-bottom: 15px;
+  width: calc(100% - 20px);
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hostride-form .column span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.hostride-user-details .column input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border-color: #93c47d;
+}
+select.form-control{
+  border-color: #93c47d;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+select.form-control:focus{
+  border-color: #93c47d;
+}

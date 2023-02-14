@@ -1,0 +1,70 @@
+.adminprofile-title{
+  
+    text-align: center;
+}
+.profile-img{
+  background-color: aquamarine;
+  margin:1 10px 0 -25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+ 
+
+
+}
+.adminprofile-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}.top-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+                    
+.profile-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}   
+.bottom-details{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-evenly;
+  
+    background-color: rgb(154, 148, 148);
+    border-radius: 10px;
+    margin:auto
+}
+.bottom-detail-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.adminprofile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ap-bottom-top{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-evenly;
+}
+.adminprofile-bottom-title{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-evenly;
+    
+ 
+}
+.ap-dept{
+    text-decoration: underline;
+    font-size: large;
+}
+
+.ap-adr{
+    text-decoration: underline;
+    font-size: large;
+}

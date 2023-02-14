@@ -1,0 +1,101 @@
+.foundpool-container {
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.foundpool-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.foundpool-host {
+    width: fit-content;
+    transition: all 0.5s;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-top: 3px;
+    /* box-shadow: 0 4px 8px 0 rgba(121, 238, 150, 0.2); */
+    background-color:transparent;
+    transition: 0.3s;
+    /* border-radius: 10px; */
+    /* border: 2px solid rgb(120, 185, 127); */
+    font-size: x-large;
+}
+
+.foundpool-row {
+    width: fit-content;
+    transition: all 0.5s;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-top: 3px;
+    /* box-shadow: 0 4px 8px 0 rgba(121, 238, 150, 0.2);
+    background-color: rgb(234, 240, 239); */
+    transition: 0.3s;
+    border-radius: 10px;
+    /* border: 2px solid rgb(120, 185, 127); */
+    font-size:medium;
+}
+
+.requestride-block {
+    margin-left: 4vw;
+}
+
+.requestride-btn {
+    /* border: none;
+    background-color: rgb(127, 204, 172);
+    border-radius: 10px;
+    padding: 0 10px;
+    height: 45px;
+    margin: 35px 0 */
+    width: 180px;
+    padding: 10px 15px;
+    margin: 35px auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #93c47d, #5cbfec);
+    cursor: pointer;
+    transition: opacity 0.4s;
+    margin-right: 16px;
+}
+
+.requestride-btn:hover {
+    /* background-color: rgb(76, 189, 123); */
+    background-image: linear-gradient(to right, #93c47d, #5cbfec);
+}
+
+.foundpool-details {
+    display: flex;
+    column-gap: 3vh;
+    align-items: center;
+    /* height: 25vh;
+    width: 30vw; */
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 2vh;
+    background-color: #a0c9ec;
+    border-radius: 10px;
+    transition: all 0.5s;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(112, 206, 243, 0.2)
+}
+
+.foundpool-details:hover {
+    background-color: rgb(194, 213, 241);
+}
+.call-seat-icons{
+    font-size: medium;
+}
+.foundpool-title {
+    /* text-align: center; */
+    margin-top: 2vh;
+    font-size: x-large;
+    font-weight: 400;
+}
+.host-img{
+    margin-left: 10px;
+    margin-top: 3px;
+}
